@@ -1152,6 +1152,13 @@ that can be ignored include:
 * ``parsing``
 * ``templating``
 
+For example, to ignore *all* parsing (PRS) and templating (TMP) errors in the *entire*
+project, add the following line to ``.sqlfluff`` file:
+
+.. code-block:: cfg
+    # This will ignore all parsing and templating errors
+    ignore = parsing, templating 
+    
 .sqlfluffignore
 ^^^^^^^^^^^^^^^
 
